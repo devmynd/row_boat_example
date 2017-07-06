@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20170706202913) do
 
   create_table "colleges", force: :cascade do |t|
     t.string "city", null: false
-    t.string "inst_url", null: false
+    t.string "inst_url"
     t.string "name", null: false
-    t.string "npc_url", null: false
+    t.string "npc_url"
     t.string "ope_id", null: false
     t.string "state", null: false
     t.string "unit_id", null: false
