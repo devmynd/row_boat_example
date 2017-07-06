@@ -1,0 +1,23 @@
+%h2 Colleges
+
+.colleges
+  %table
+    %thead
+      %tr
+        %th OPE ID
+        %th Name
+        %th City
+        %th State
+        %th Inst URL
+        %th NPC URL
+        %th Unit ID
+    %tbody
+      - colleges.each do |college|
+        %tr
+          %td= college.ope_id
+          %td= college.name
+          %td= college.city
+          %td= college.state
+          %td= college.inst_url
+          %td= college.npc_url
+          %td= college.unit_id
