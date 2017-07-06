@@ -7,7 +7,7 @@ class CreateColleges < ActiveRecord::Migration[5.1]
       t.string :npc_url
       t.string :ope_id, null: false
       t.string :state, null: false
-      t.string :unit_id, null: false
+      t.string :unit_id
       t.index :ope_id, unique: true
       t.timestamps
     end

@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/devmynd/row_boat.git
+  revision: e7a2c0030d3df57183226ea0b557aa6a3feb63b3
+  specs:
+    row_boat (0.4.0)
+      activerecord (>= 5.0.0)
+      activerecord-import (~> 0.18.2)
+      smarter_csv (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -33,6 +42,8 @@ GEM
       activemodel (= 5.1.2)
       activesupport (= 5.1.2)
       arel (~> 8.0)
+    activerecord-import (0.18.3)
+      activerecord (>= 3.2)
     activesupport (5.1.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
@@ -142,6 +153,7 @@ GEM
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
     sexp_processor (4.9.0)
+    smarter_csv (1.1.4)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -185,6 +197,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.2)
+  row_boat!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

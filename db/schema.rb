@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20170706202913) do
     t.string "npc_url"
     t.string "ope_id", null: false
     t.string "state", null: false
-    t.string "unit_id", null: false
+    t.string "unit_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["ope_id"], name: "index_colleges_on_ope_id", unique: true
