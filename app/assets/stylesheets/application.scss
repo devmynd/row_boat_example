@@ -7,7 +7,31 @@ body {
   width: 100vw;
 }
 
-.header, .colleges {
+.buttons, .header, .colleges {
   width: 85%;
   margin: auto;
+}
+
+td {
+  overflow: hidden;
+}
+
+.header {
+  padding: 15px;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.button {
+  flex-shrink: 1;
+  padding: 15px;
+}
+
+.spacer {
+  flex: 1;
 }

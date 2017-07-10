@@ -9,6 +9,7 @@ gem 'haml-rails'
 gem 'normalize-rails'
 gem 'bourbon'
 gem 'bitters'
+gem 'autoprefixer-rails'
 gem 'row_boat', github: 'devmynd/row_boat'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

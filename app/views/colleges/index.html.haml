@@ -1,5 +1,13 @@
 %h1.header Colleges
 
+.buttons
+  .spacer
+  - if colleges.present?
+    = link_to "Delete All", delete_all_colleges_path, method: :delete, class: "button"
+  - else
+    = link_to "Basic Import", basic_import_colleges_path, method: :post, class: "button"
+    = link_to "Advanced Import", advanced_import_colleges_path, method: :post, class: "button"
+
 .colleges
   %table
     %thead
