@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/devmynd/row_boat.git
-  revision: e7a2c0030d3df57183226ea0b557aa6a3feb63b3
-  specs:
-    row_boat (0.4.0)
-      activerecord (>= 5.0.0)
-      activerecord-import (~> 0.18.2)
-      smarter_csv (~> 1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,7 +80,7 @@ GEM
       haml (>= 4.0, < 6)
       nokogiri (>= 1.6.0)
       ruby_parser (~> 3.5)
-    i18n (0.8.4)
+    i18n (0.8.6)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -144,6 +135,10 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    row_boat (0.5.0)
+      activerecord (>= 5.0.0)
+      activerecord-import (~> 0.18.2)
+      smarter_csv (~> 1.1)
     ruby_dep (1.5.0)
     ruby_parser (3.9.0)
       sexp_processor (~> 4.1)
@@ -200,7 +195,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.2)
-  row_boat!
+  row_boat
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
